@@ -22,12 +22,12 @@ export default async function MoviePage({ params }) {
           height={300}
           placeholder="blur"
           blurDataURL="/spinner.svg"
-          alt="image is not available or movie poster"
+          alt=" movie poster"
           style={{
             maxWidth: "100%",
             height: "100%",
           }}
-        />
+        ></Image>
         <div className="p-2">
           <h2 className="text-lg mb-3 font-bold">
             {movie.title || movie.name}
@@ -49,4 +49,3 @@ export default async function MoviePage({ params }) {
     </div>
   );
 }
-//      <h1> {movie.title || movie.name}</h1>
