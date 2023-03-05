@@ -1,7 +1,7 @@
 const loading = () => {
   return (
     <div className="flex justify-center">
-      <img src="spinner.svg" alt="loading..." className="h-96" />
+      <img className="h-96" src="spinner.svg" alt="loading..." />
     </div>
   );
 };
