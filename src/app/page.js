@@ -31,6 +31,3 @@ export default async function Home({ searchParams }) {
     </div>
   );
 }
-
-//return <h1 className="text-red-400">HOME</h1>;
-//}
